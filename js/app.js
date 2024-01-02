@@ -47,8 +47,30 @@ window.addEventListener('load', () => {
             easing: 'ease-in-out',
             once: true
         });
-    }, 1500)
+
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cube",
+            grabCursor: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94,
+            },
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    }, 2500)
 })
+
+
 
 
 

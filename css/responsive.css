@@ -13,9 +13,19 @@
 
 
 
+
 @media (max-width:500px) {
     header img {
         width: 100%;
+    }
+}
+
+
+@media (min-width:400px) {
+    .swiper {
+        width: 300px;
+        height: 300px;
+
     }
 }
 

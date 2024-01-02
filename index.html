@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مدیریت خدمات شهری رضوانشهر</title>
     <link rel="icon" type="image/x-icon" href="./asset/image/icons/a-smartphone-with-a-qr-code-svgrepo-com.svg">
+    <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./vendor/aos/aos.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -14,7 +15,9 @@
 
 <body>
     <div class="loader-wrapper">
-        <span class="loader"></span>
+        <div class="border">
+            <div class="qrcode"></div>
+        </div>
     </div>
 
     <div class="content">
@@ -43,7 +46,23 @@
                     پیوسته
                     اهل
                     دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
-                <img src="./asset/image/header.png" data-aos="fade-right" alt="">
+                <div class="swiper mySwiper" data-aos="fade-right">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./asset/image/header.png" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./asset/image/header2.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./asset/image/header3.jpg" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./asset/image/header4.jpg" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             </header>
 
             <main>
@@ -84,6 +103,7 @@
             کلیه حقوق این سامانه متعلق به تیم نرم افزاری اسپاد میباشد.
         </footer>
     </div>
+    <script src="./vendor/swiper/swiper-bundle.min.js"></script>
     <script src="./vendor/aos/aos.js"></script>
     <script src="./js/app.js"></script>
 </body>
