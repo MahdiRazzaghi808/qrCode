@@ -37,6 +37,16 @@
     padding: 0.75rem;
     text-align: center;
     font-size: 1.1rem;
+    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+}
+
+#num {
+    border-radius: 0.75rem;
+}
+
+#center {
+    margin: 2rem 0;
 }
 
 .address-content {
@@ -45,4 +55,30 @@
 
 .font-weight-bold {
     font-weight: bold;
+}
+
+
+.tbody {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+
+
+.tbody tr {
+    width: 100% !important;
+}
+
+.tbody td {
+    display: flex;
+    width: 100% !important;
+    padding: 1rem 0.5rem !important;
+}
+
+@media (max-width: 1000px) {
+
+    .tbody {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
