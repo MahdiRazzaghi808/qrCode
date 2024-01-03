@@ -1,0 +1,48 @@
+.content-page {
+    min-height: 100vh;
+    margin: 2rem 0;
+}
+
+.container {
+    margin-top: 3rem;
+}
+
+.links {
+    color: #fff;
+    font-weight: bold;
+}
+
+.address-container {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image-container img {
+    width: 10rem;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.address-header {
+    background-color: #113756 !important;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.address-content {
+    padding: 20px;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}

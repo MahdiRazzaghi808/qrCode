@@ -15,12 +15,12 @@
 
 <body>
     <div class="loader-wrapper">
-        <div class="border">
+        <div class="scanner">
             <div class="qrcode"></div>
         </div>
     </div>
 
-    <div class="content">
+    <div class="content bg-danger">
         <div class="top-header">
             <p>درگاه الكترونیكی شهرداری رضوانشهر</p>
             <p id="date"></p>
@@ -28,24 +28,7 @@
 
         <div class="container">
             <header>
-                <p data-aos="fade-left">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
-                    طراحان
-                    گرافیک است، چاپگرها و
-                    متون
-                    بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
-                    کاربردهای
-                    متنوع
-                    با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت
-                    فراوان
-                    جامعه
-                    و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
-                    خلاقی، و
-                    فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه
-                    راهکارها،
-                    و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
-                    پیوسته
-                    اهل
-                    دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+                <p data-aos="fade-left">خوش آمدید به خدمات پلاک هوشمند شهرداری رضوانشهر! <br> پلاک هوشمند ما به ماموران برق، آب و گاز امکان اسکن و دسترسی به اطلاعات خانه‌ها را فراهم می‌کنند. با فناوری نوین ما، ما فرآیندها را ساده‌تر کرده و به ارتقاء ارائه خدمات و مدیریت بی‌دردسر تسهیلات آن می‌پردازیم. در شهرداری رضوانشهر، ما به ارائه زیرساخت هوشمند و متصل به ساکنان متعهد هستیم، ارتقاء پایداری و راحتی را ترویج می‌دهیم. با ما در بهترین تجربه زندگی هوشمند همراه باشید، جایی که اطلاعات در دسترس شماست و خدمات فقط با یک اسکن در دسترس شماست. اطمینان حاصل کنید که کارآمدی و راحتی خانه شما از اولویت‌های ماست و رضوانشهر را به یک جامعه هوشمند و متصل تبدیل می‌کنیم</p>
                 <div class="swiper mySwiper" data-aos="fade-right">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -73,24 +56,39 @@
                 </div>
                 <div class="wrapper">
 
-                    <div class="card" data-aos="fade-left">
-                        <img src="./asset/image/icons/post-office-svgrepo-com.svg" alt="post">
+                    <div class="card" data-aos="fade-left" data-href="post">
+                        <div>
+                            <img src="./asset/image/icons/post-office-svgrepo-com.svg" alt="post">
+                        </div>
                         <p>اداره پست</p>
                     </div>
 
-                    <div class="card" data-aos="flip-right">
-                        <img src="./asset/image/icons/city-hall-parliament-svgrepo-com.svg" alt="city">
+                    <div class="card" data-aos="flip-right" data-href="city">
+                        <div>
+                            <img src="./asset/image/icons/city-hall-parliament-svgrepo-com.svg" alt="city">
+                        </div>
                         <p>شهرداری</p>
                     </div>
 
-                    <div class="card" data-aos="flip-left">
-                        <img src="./asset/image/icons/tank-cistern-svgrepo-com.svg" alt="water">
+                    <div class="card" data-aos="flip-left" data-href="water">
+                        <div>
+                            <img src="./asset/image/icons/water.svg" alt="water">
+                        </div>
                         <p>اداره آب</p>
                     </div>
 
-                    <div class="card" data-aos="fade-right">
-                        <img src="./asset/image/icons/gas-pipe-oil-svgrepo-com.svg" alt="fire">
+                    <div class="card" data-aos="fade-right" data-href="gas">
+                        <div>
+                            <img src="./asset/image/icons/gas-pipe-oil-svgrepo-com.svg" alt="gas">
+                        </div>
                         <p>اداره گاز</p>
+                    </div>
+
+                    <div class="card" data-aos="fade-left" data-href="electric">
+                        <div>
+                            <img src="./asset/image/icons/electric.svg" alt="electric">
+                        </div>
+                        <p>اداره برق</p>
                     </div>
 
                 </div>
@@ -105,6 +103,7 @@
     </div>
     <script src="./vendor/swiper/swiper-bundle.min.js"></script>
     <script src="./vendor/aos/aos.js"></script>
+    <script src="./js/shaired.js"></script>
     <script src="./js/app.js"></script>
 </body>
 

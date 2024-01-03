@@ -1,0 +1,8 @@
+.container {
+    margin-bottom: 4rem;
+}
+
+.address-header {
+    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+}
